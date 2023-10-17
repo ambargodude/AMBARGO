@@ -1,3 +1,4 @@
 #!/bin/bash
+# depending on the installation of clingo, it might be necessary to add a path to the executable. (e.g., /usr/bin/clingo)
 clingo -n25 -e brave analytic.lp testcases.lp evaluation.lp $@
 
