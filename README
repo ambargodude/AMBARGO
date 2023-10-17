@@ -1,1 +1,8 @@
 This is a repository for ASP code in the paper submitted to USENIX Security 2024
+
+1. install clingo from https://potassco.org/
+2. download files in this repo into a directory and cd to that. 
+3. std2 is a bash script that takes as argument the name of the file to be analyzed (e.g. consthyp) and makes the analysis by calling clingo.
+4. run either of the analyses in the paper by the command (for e.g. the program consthyp.lp).
+$ ./std2 consthyp.lp
+
