@@ -1,0 +1,1 @@
+alreadyseen(A) :- intarg(A).
